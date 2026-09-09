@@ -1,0 +1,4 @@
+Brand icons: Simple Icons 14.0.0 (CC0). https://github.com/simple-icons/simple-icons/tree/14.0.0/icons
+Brand marks remain subject to their respective trademark rights.
+
+Map favicons: original site assets fetched from https://www.amap.com/favicon.ico and https://map.baidu.com/favicon.ico. Brand marks belong to their respective owners.

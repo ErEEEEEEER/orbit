@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "ORBIT · 星轨新标签页",
+  "short_name": "ORBIT",
+  "version": "1.0.0",
+  "description": "在本地打开你的收藏星系：星轨、搜索、天气与常用网站。",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "host_permissions": [
+    "https://api.open-meteo.com/*",
+    "https://geocoding-api.open-meteo.com/*"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self'; connect-src 'self' https://api.open-meteo.com https://geocoding-api.open-meteo.com; base-uri 'self'; frame-src 'none'"
+  }
+}
